@@ -41,3 +41,6 @@ venv/
 Thumbs.db
 .vscode/
 .idea/
+
+# Local software dependencies
+software/
