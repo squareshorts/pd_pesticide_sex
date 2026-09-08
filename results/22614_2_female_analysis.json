@@ -1,0 +1,148 @@
+{
+  "n": 9,
+  "exposure_N": 48595,
+  "F": {
+    "mean": 21.653741288124515,
+    "median": 20.743863042413846,
+    "min": 19.705838205341536,
+    "max": 28.78284590308704
+  },
+  "ivw": {
+    "beta": 3.7146164046621757,
+    "se": 5.4048817024661062,
+    "p": 0.49191220871520652,
+    "ci_low": -6.878757072870922,
+    "ci_high": 14.307989882195272,
+    "OR": 41.04284022221406,
+    "OR_low": 0.0010294227478035523,
+    "OR_high": 1636368.2822245655,
+    "Q": 4.7339810045477027,
+    "Q_df": 8,
+    "Q_p": 0.78559332033347395,
+    "phi": 1
+  },
+  "weighted_median": {
+    "beta": -1.943342887318817,
+    "se": 6.9451851453057891,
+    "p": 0.77962210463146464,
+    "ci_low": -15.555655638080742,
+    "ci_high": 11.668969863443108,
+    "OR": 0.1432243657106835,
+    "OR_low": 1.7549493794394136e-07,
+    "OR_high": 116887.80983403741
+  },
+  "weighted_median_second_order": {
+    "beta": -1.9648473839955953,
+    "se": 6.9535786128074299,
+    "p": 0.77750927211320642,
+    "ci_low": -15.593611028766144,
+    "ci_high": 11.663916260774954,
+    "OR": 0.14017727827953808,
+    "OR_low": 1.6895878478700421e-07,
+    "OR_high": 116298.59536827385
+  },
+  "egger": {
+    "beta": 0.4326229323119562,
+    "se": 26.769440342704698,
+    "p": 0.98755686762478578,
+    "ci_low": -62.867044903613802,
+    "ci_high": 63.732290768237718,
+    "intercept": 0.006948879701670822,
+    "intercept_se": 0.055510960927567202,
+    "intercept_p": 0.9039000265210908,
+    "residual_Q": 4.7183108927122968,
+    "df": 7
+  },
+  "I2GX": 0,
+  "QGX": 7.6682321977517329,
+  "oriented_snps": 0,
+  "loo": {
+    "beta_min": 1.0920165989706119,
+    "beta_max": 5.5131455414993189,
+    "p_min": 0.33621630784024426,
+    "p_max": 0.84716611747326909,
+    "n_nominal": 0
+  },
+  "radial": {
+    "n_outliers": 0,
+    "outliers": [],
+    "min_bonferroni_p": 1
+  },
+  "anderson_rubin": {
+    "Q_null": 5.2063219111841059,
+    "df": 9,
+    "p_null": 0.81596445976857168,
+    "confidence_set": [
+      [-15.685357000759204, 23.889737877981194]
+    ]
+  },
+  "steiger": {
+    "status": "Not run: population prevalence of each occupational category and sex-specific PD prevalence are not supplied; binary exposure is on a linear-probability scale. No unlabelled comparison of observed-exposure and liability-outcome R2."
+  },
+  "all_palindromes_removed": {
+    "n": 7,
+    "beta": 1.567174375767842,
+    "se": 5.998884313813809,
+    "p": 0.79390411199955668,
+    "ci_low": -10.190422826729497,
+    "ci_high": 13.32477157826518,
+    "OR": 4.7930855826085983,
+    "OR_low": 3.7528015394312253e-05,
+    "OR_high": 612173.84294966666,
+    "Q": 2.2954811294305939,
+    "Q_df": 6,
+    "Q_p": 0.89061779417538323,
+    "phi": 1
+  },
+  "weighted_mode": {
+    "b": -3.0066656566287762,
+    "se": 10.127275324348693,
+    "pval": 0.77411437840193531,
+    "nsnp": 9
+  },
+  "raps_huber": {
+    "beta.hat": 3.578826834599147,
+    "tau2.hat": 0,
+    "beta.se": 5.7021088965418949,
+    "tau2.se": 0,
+    "t": [-0.44588201392883386, -0.33624996015275666, -0.87779364414200156, 0.53675448451115682, 0.45247950567624451, 0.61535353536055548, -0.37150255427982176, -0.66982580790740442, 1.4778335906718312],
+    "gamma.hat.z": [5.349114608762811, 4.7514649652328975, 4.7073583813467152, 4.5823823497167968, 4.583085523519328, 4.5175396015152307, 4.4409491034972763, 4.4211131526885206, 4.5097024649150388]
+  },
+  "raps_huber_warnings": ["The estimated overdispersion parameter is very small. Consider using the simple model without overdispersion.", "Cannot find solution with finite over.dispersion. Using tau2 = 0."],
+  "raps_l2": {
+    "beta.hat": 3.8031071969879173,
+    "tau2.hat": 0,
+    "beta.se": 5.5368222713811859,
+    "tau2.se": 0,
+    "t": [-0.46308923855182615, -0.35017695384749731, -0.89148909363703388, 0.5242325103072103, 0.43805882002762025, 0.6024114860521621, -0.38443976237432409, -0.68324675508494792, 1.4652074293998689],
+    "gamma.hat.z": [5.3476524031730461, 4.7504588675761079, 4.7047839278820751, 4.5838317651039366, 4.5844863495429298, 4.5192836186957281, 4.4398478754114157, 4.4190589488577903, 4.5138205140003294]
+  },
+  "raps_l2_warnings": ["The estimated overdispersion parameter is quite small. Consider using the simple model without overdispersion.", "Estimated overdispersion is negative. Using tau2 = 0.", "The estimating equations might have another finite root. The closest root is beta = 3.80310719698792 and the other root is beta = 3.80299991061608 and the initialization is beta = 3.80310719698792"],
+  "presso": {
+    "Main MR results": [
+      {
+        "Exposure": "beta",
+        "MR Analysis": "Raw",
+        "Causal Estimate": 3.714616404662177,
+        "Sd": 4.1577124973511825,
+        "T-stat": 0.89342791427466528,
+        "P-value": 0.39770736481388202
+      },
+      {
+        "Exposure": "beta",
+        "MR Analysis": "Outlier-corrected",
+        "Causal Estimate": null,
+        "Sd": null,
+        "T-stat": null,
+        "P-value": null
+      }
+    ],
+    "MR-PRESSO results": {
+      "Global Test": {
+        "RSSobs": 5.8709954614720985,
+        "Pvalue": 0.79810000000000003
+      }
+    }
+  },
+  "presso_warnings": "No outlier were identified, therefore the results for the outlier-corrected MR are set to NA"
+}

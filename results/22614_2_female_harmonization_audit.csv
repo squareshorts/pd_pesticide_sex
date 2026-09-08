@@ -1,0 +1,12 @@
+rsid,palindromic,status,flip_outcome,strand_complement,frequency_difference
+rs60069220,False,retained,False,False,2.515690914700608e-05
+rs192440567,False,absent_outcome,,,
+rs9653111,False,retained,False,False,0.010472919024591007
+rs3993187,False,retained,False,False,0.0036090647185924585
+rs35213986,False,absent_outcome,,,
+rs34146604,False,retained,False,False,0.0015373598106800945
+rs34388255,False,retained,True,False,0.0035310422883012005
+rs7591717,False,retained,True,False,0.002363792571252188
+rs55929442,True,retained,True,False,0.004043080563844059
+rs4871838,False,retained,False,False,0.01638012141166789
+rs16753,True,retained,True,False,0.003512202901533118

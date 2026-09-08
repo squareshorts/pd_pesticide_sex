@@ -1,0 +1,9 @@
+exposure,sex,n,total,valid_numeric,p_lt_1e5,high_confidence,MAF_ge_001,F_gt_10,reference_matched_unique,clumped,outcome_found,harmonized,harmonization_drops
+22614_1,female,21,13791467,13780975,2727,81,81,81,65,27,21,21,"{""retained"": 21, ""absent_outcome"": 6}"
+22614_1,male,16,13791467,13778471,761,227,196,196,170,23,16,16,"{""retained"": 16, ""absent_outcome"": 7}"
+22614_0,female,70,13791467,13780975,7400,5429,426,426,333,103,70,70,"{""retained"": 70, ""absent_outcome"": 33}"
+22614_0,male,26,13791467,13778471,3322,1484,165,165,130,42,26,26,"{""retained"": 26, ""absent_outcome"": 16}"
+22614_2,female,9,13791467,13780975,6575,53,53,53,45,11,9,9,"{""retained"": 9, ""absent_outcome"": 2}"
+22614_2,male,21,13791467,13778471,3656,48,48,48,43,22,21,21,"{""retained"": 21, ""absent_outcome"": 1}"
+22610_2,female,14,13791467,13780951,2191,105,83,83,66,25,15,14,"{""retained"": 14, ""absent_outcome"": 10, ""palindromic_ambiguous_frequency"": 1}"
+22610_2,male,26,13791467,13778677,285,155,108,108,96,29,26,26,"{""retained"": 26, ""absent_outcome"": 3}"

@@ -1,0 +1,47 @@
+{
+  "sha": "4002b3c0ce6f44121591d04ee9eaab8721e6e71d",
+  "url": "https://api.github.com/repos/neurogenetics/Autosomal-sex-differences-PDv2/git/trees/4002b3c0ce6f44121591d04ee9eaab8721e6e71d",
+  "tree": [
+    {
+      "path": "Additional analyses.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f80cba85b9bc1623c99c2120d79e8de73bc63dd0",
+      "size": 27433,
+      "url": "https://api.github.com/repos/neurogenetics/Autosomal-sex-differences-PDv2/git/blobs/f80cba85b9bc1623c99c2120d79e8de73bc63dd0"
+    },
+    {
+      "path": "IPDGC_data.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3596092b0d032f9d6dac26b5438d34726d73a726",
+      "size": 12520,
+      "url": "https://api.github.com/repos/neurogenetics/Autosomal-sex-differences-PDv2/git/blobs/3596092b0d032f9d6dac26b5438d34726d73a726"
+    },
+    {
+      "path": "Meta analyses of Results.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27fa91cd4b61c6ce637add7897af08badd88a8b6",
+      "size": 22202,
+      "url": "https://api.github.com/repos/neurogenetics/Autosomal-sex-differences-PDv2/git/blobs/27fa91cd4b61c6ce637add7897af08badd88a8b6"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21170916e2f24c4702566fe6fc0bd4c502d7cae4",
+      "size": 1754,
+      "url": "https://api.github.com/repos/neurogenetics/Autosomal-sex-differences-PDv2/git/blobs/21170916e2f24c4702566fe6fc0bd4c502d7cae4"
+    },
+    {
+      "path": "UKBiobank_data.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "322344f3d6f04d09b377f6d1e272af06969af907",
+      "size": 19737,
+      "url": "https://api.github.com/repos/neurogenetics/Autosomal-sex-differences-PDv2/git/blobs/322344f3d6f04d09b377f6d1e272af06969af907"
+    }
+  ],
+  "truncated": false
+}

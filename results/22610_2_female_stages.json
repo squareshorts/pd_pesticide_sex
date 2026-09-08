@@ -1,0 +1,17 @@
+{
+  "total": 13791467,
+  "valid_numeric": 13780951,
+  "p_lt_1e5": 2191,
+  "high_confidence": 105,
+  "MAF_ge_001": 83,
+  "F_gt_10": 83,
+  "reference_matched_unique": 66,
+  "clumped": 25,
+  "outcome_found": 15,
+  "harmonized": 14,
+  "harmonization_drops": {
+    "retained": 14,
+    "absent_outcome": 10,
+    "palindromic_ambiguous_frequency": 1
+  }
+}

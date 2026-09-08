@@ -1,0 +1,43 @@
+﻿# Raw and downloaded genetic data
+data/
+raw/
+downloads/
+reference/
+references/
+ld_reference/
+ld/
+*.bgz
+*.bgz.tbi
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.bed
+*.bim
+*.fam
+*.gz
+*.tgz
+*.tar
+*.zip
+
+# Runtime/log files
+logs/
+*.log
+*.tmp
+*.temp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,50 @@
+[
+  {
+    "file": "22610_2.gwas.imputed_v3.female.tsv.bgz",
+    "md5": "d8647cee115a02b0b26e9814321ef96d",
+    "expected_md5": "d8647cee115a02b0b26e9814321ef96d",
+    "sha256": "2ca485d3dc6e2e7db3e3b0217aec9e8fb0dcbcc4f1d31750977fea8b7fe2fcb3"
+  },
+  {
+    "file": "22610_2.gwas.imputed_v3.male.tsv.bgz",
+    "md5": "5bdb0afae1fd0e4657cabbe81181e459",
+    "expected_md5": "5bdb0afae1fd0e4657cabbe81181e459",
+    "sha256": "e2cdc517c82edd4351b1c2146f7feb2c5edeff90e6d6cfe1fcde23f13ceb5c59"
+  },
+  {
+    "file": "22614_0.gwas.imputed_v3.female.tsv.bgz",
+    "md5": "0d099d76793cf8162f6e7f560041c738",
+    "expected_md5": "0d099d76793cf8162f6e7f560041c738",
+    "sha256": "5c68e105c6a6352b16cad9deba4154544ced3d2b36433803a7c788ab6955d09e"
+  },
+  {
+    "file": "22614_0.gwas.imputed_v3.male.tsv.bgz",
+    "md5": "b4bd0cd49171bd8c2f173004fcfb6e57",
+    "expected_md5": "b4bd0cd49171bd8c2f173004fcfb6e57",
+    "sha256": "250e6b138cc646fc5af44e2ddeab951d4011a8f35861c9250b95fd0173381c47"
+  },
+  {
+    "file": "22614_1.gwas.imputed_v3.female.tsv.bgz",
+    "md5": "2b57c1bb3c5b56bb49efbe0dbe7f6379",
+    "expected_md5": "2b57c1bb3c5b56bb49efbe0dbe7f6379",
+    "sha256": "f96d9de34f0c83969654915409e2ba18149874e5ced8eb31209ea51da36924b9"
+  },
+  {
+    "file": "22614_1.gwas.imputed_v3.male.tsv.bgz",
+    "md5": "a1308b5f2742ee1dd25a65123d46eb2e",
+    "expected_md5": "a1308b5f2742ee1dd25a65123d46eb2e",
+    "sha256": "c0094ed63d35f54094616c5b7e7f50a30d078306441483ac69f57f7bb6ff785c"
+  },
+  {
+    "file": "22614_2.gwas.imputed_v3.female.tsv.bgz",
+    "md5": "9e61a46ec676f8bb38c3a5f14bc41313",
+    "expected_md5": "9e61a46ec676f8bb38c3a5f14bc41313",
+    "sha256": "26de63df58916126c3b9ab8b96db0e872a5aca5a9be65bebbda8752345017dab"
+  },
+  {
+    "file": "22614_2.gwas.imputed_v3.male.tsv.bgz",
+    "md5": "18f225b5e08795bf674c8ca952f2c15d",
+    "expected_md5": "18f225b5e08795bf674c8ca952f2c15d",
+    "sha256": "b1b7adc3a276f6811fabf46c6569ac0ad3dc12870469ceae3b3ea8ff2cbd651e"
+  }
+]

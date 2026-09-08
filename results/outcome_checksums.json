@@ -1,0 +1,14 @@
+[
+  {
+    "file": "FEMALE_PD_filtered_sumstats_NO_UKB_AT_ALL_no_multi_allelics_RSID.txt.gz",
+    "uncompressed_md5": "4c3123aa1622fac6653efe41662faeb1",
+    "expected_uncompressed_md5": "4c3123aa1622fac6653efe41662faeb1",
+    "sha256": "3d34ba5848d2ba3128ffa818ff9672538ed33cf09a3ae64c501d61d25981df5f"
+  },
+  {
+    "file": "MALE_PD_filtered_sumstats_NO_UKB_AT_ALL_no_multi_allelics_RSID.txt.gz",
+    "uncompressed_md5": "2a400dbbda127da0635f3ef72f36421b",
+    "expected_uncompressed_md5": "2a400dbbda127da0635f3ef72f36421b",
+    "sha256": "80a8a902ba113d98eb3fa27efe3cc98d391784622bf71b673865437689ab1fe9"
+  }
+]
