@@ -1,7 +1,7 @@
 """LD from the 1000 Genomes EUR PLINK binary set used in the original pipeline (data/EUR.*), without PLINK.
 Genotypes are read directly from the SNP-major .bed file; r^2 is the squared Pearson correlation of
 allele dosages over individuals with both genotypes observed (as in PLINK --r2)."""
-import subprocess, numpy as np
+import subprocess, shutil, numpy as np
 from pathlib import Path
 D=Path(__file__).resolve().parents[1]/'data'
 N=sum(1 for _ in open(D/'EUR.fam')); BPS=(N+3)//4
@@ -12,9 +12,20 @@ def bim_lookup(rsids=(), windows=()):
     rs=' '.join(rsids); win=';'.join(f'{c},{lo},{hi}' for c,lo,hi in windows)
     prog=r'''BEGIN{n=split(RS_,a," ");for(i=1;i<=n;i++)w[a[i]]=1;m=split(WIN,b,";");for(j=1;j<=m;j++){split(b[j],c,",");C[j]=c[1];L[j]=c[2]+0;H[j]=c[3]+0}}
     {k=($2 in w);if(!k)for(j=1;j<=m;j++)if($1==C[j]&&$4>=L[j]&&$4<=H[j]){k=1;break} if(k)print NR-1"\t"$1"\t"$2"\t"$4"\t"$5"\t"$6}'''
-    out=subprocess.run(['awk','-v',f'RS_={rs}','-v',f'WIN={win}',prog,str(D/'EUR.bim')],capture_output=True,text=True,check=True).stdout
-    rows=[l.split('\t') for l in out.strip().split('\n') if l]
-    return [(int(i),c,r,int(p),a,b) for i,c,r,p,a,b in rows]
+    if shutil.which('awk'):
+        out=subprocess.run(['awk','-v',f'RS_={rs}','-v',f'WIN={win}',prog,str(D/'EUR.bim')],capture_output=True,text=True,check=True).stdout
+        rows=[l.split('\t') for l in out.strip().split('\n') if l]
+        return [(int(i),c,r,int(p),a,b) for i,c,r,p,a,b in rows]
+    # Native Python fallback: supported on Windows without Git Bash / awk.
+    requested=set(rsids)
+    found=[]
+    with (D/'EUR.bim').open(encoding='utf-8') as f:
+        for idx,line in enumerate(f):
+            c,r,_,pos,a,b=line.split()
+            pos=int(pos)
+            if r in requested or any(str(c)==str(wc) and lo<=pos<=hi for wc,lo,hi in windows):
+                found.append((idx,c,r,pos,a,b))
+    return found
 
 def genotypes(indices):
     idx=np.asarray(sorted(set(indices)),dtype=np.int64); G=np.empty((len(idx),N))
