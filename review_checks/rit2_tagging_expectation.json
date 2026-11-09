@@ -1,0 +1,38 @@
+{
+ "FEMALE_rs12955331": {
+  "observed_beta_A": 0.0892,
+  "observed_se": 0.0237,
+  "observed_p": 0.0001679,
+  "lead_beta_A1": -0.1003,
+  "lead_p": 1.144e-05,
+  "signed_r": -0.745,
+  "expected_beta_from_LD": 0.0757
+ },
+ "FEMALE_rs12456492": {
+  "observed_beta_A": 0.0892,
+  "observed_se": 0.0237,
+  "observed_p": 0.0001679,
+  "lead_beta_A1": 0.0946,
+  "lead_p": 6.758e-05,
+  "signed_r": 0.56,
+  "expected_beta_from_LD": 0.0517
+ },
+ "MALE_rs12955331": {
+  "observed_beta_A": 0.0426,
+  "observed_se": 0.021,
+  "observed_p": 0.04234,
+  "lead_beta_A1": -0.0726,
+  "lead_p": 0.0003131,
+  "signed_r": -0.745,
+  "expected_beta_from_LD": 0.0548
+ },
+ "MALE_rs12456492": {
+  "observed_beta_A": 0.0426,
+  "observed_se": 0.021,
+  "observed_p": 0.04234,
+  "lead_beta_A1": 0.0983,
+  "lead_p": 3.201e-06,
+  "signed_r": 0.56,
+  "expected_beta_from_LD": 0.0537
+ }
+}

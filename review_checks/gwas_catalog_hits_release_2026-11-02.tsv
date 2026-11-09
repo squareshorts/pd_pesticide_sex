@@ -1,0 +1,46 @@
+SNPS	STRONGEST_SNP_RISK_ALLELE	DISEASE_TRAIT	MAPPED_TRAIT	P_VALUE	PUBMEDID	FIRST_AUTHOR	DATE	STUDY_ACCESSION	MAPPED_GENE	OR_or_BETA	CHR_ID	CHR_POS_GRCh38
+rs62092069	rs62092069-A	Alcohol consumption (drinks per week)	alcohol consumption characteristic	2E-8	30679032	Brazel DM	2018-12-06	GCST008811	RIT2 - SYT4	0.0148	18	43155566
+rs1356506	rs1356506-T	Body mass index	body mass index	8E-15	30239722	Pulit SL	2018-09-14	GCST009004	RIT2 - SYT4	0.0137	18	43128073
+rs1834144	rs1834144-A	Predicted visceral adipose tissue	visceral adipose tissue quantity	2E-12	31501611	Karlsson T	2019-09-09	GCST008744	RIT2 - SYT4	0.018117554	18	43164825
+rs1518146	rs1518146-?	Lung function (FEV1/FVC)	FEV/FVC ratio	4E-10	30595370	Kichaev G	2018-12-27	GCST007080	RIT2 - SYT4		18	43156241
+rs62092069	rs62092069-G	C-reactive protein levels	C-reactive protein measurement	4E-8	31900758	Han X	2020-01-03	GCST009777	RIT2 - SYT4	0.0116985	18	43155566
+rs62092069	rs62092069-G	HDL cholesterol levels	high density lipoprotein cholesterol measurement	4E-11	32203549	Richardson TG	2020-03-23	GCST010242	RIT2 - SYT4	0.0130536	18	43155566
+rs1834144	rs1834144-?	Body mass index	body mass index	2E-13	31669095	Zhu Z	2019-10-24	GCST009871	RIT2 - SYT4		18	43164825
+rs1834144	rs1834144-C	Apolipoprotein A1 levels	apolipoprotein A 1 measurement	5E-9	32203549	Richardson TG	2020-03-23	GCST010241	RIT2 - SYT4	0.0119111	18	43164825
+rs1834144	rs1834144-C	Adult body size	body height	3E-8	32376654	Richardson TG	2020-05-06	GCST010988	RIT2 - SYT4	0.00792997	18	43164825
+rs1834144	rs1834144-?	Body fat percentage	body fat percentage	6E-9	30593698	Hubel C	2018-12-28	GCST007064	RIT2 - SYT4	0.12733	18	43164825
+rs1834144	rs1834144-?	Body fat percentage	body fat percentage	9E-7	30593698	Hubel C	2018-12-28	GCST007064	RIT2 - SYT4	0.17487	18	43164825
+rs59499656	rs59499656-A	Physical activity (moderate intensity activity duration)	physical activity measurement	8E-6	30531941	Doherty A	2018-12-10	GCST006915	RIT2 - SYT4	0.02195492	18	43188344
+rs59499656	rs59499656-A	Physical activity (overall physical activity time)	physical activity measurement	2E-9	30531941	Doherty A	2018-12-10	GCST006912	RIT2 - SYT4	0.028	18	43188344
+rs1158805	rs1158805-A	Waist-hip ratio	waist-hip ratio	5E-13	30239722	Pulit SL	2018-09-14	GCST008996	RIT2 - SYT4	0.0133	18	43156625
+rs1834144	rs1834144-?	Body mass index	body mass index	8E-13	30595370	Kichaev G	2018-12-27	GCST007039	RIT2 - SYT4		18	43164825
+rs59499656	rs59499656-A	Accelerometer-based physical activity measurement (average acceleration)	physical activity measurement	2E-9	29899525	Klimentidis YC	2018-06-13	GCST006099	RIT2 - SYT4	0.23	18	43188344
+rs59499656	rs59499656-A	Body fat percentage	body fat percentage	2E-18	33980691	Martin S	2021-05-12	GCST90020232	RIT2 - SYT4	0.014	18	43188344
+rs59499656	rs59499656-A	High density lipoprotein cholesterol levels	high density lipoprotein cholesterol measurement	5E-11	33980691	Martin S	2021-05-12	GCST90020233	RIT2 - SYT4	0.013	18	43188344
+rs59499656	rs59499656-A	Metabolic biomarkers (multivariate analysis)	aspartate aminotransferase measurement, low density lipoprotein triglyceride measurement, [truncated]	2E-13	33980691	Martin S	2021-05-12	GCST90038594	RIT2 - SYT4		18	43188344
+rs1158805	rs1158805-C	Body mass index	body mass index	1E-16	36581621	Huang J	2022-12-29	GCST90255621	RIT2 - SYT4	0.0129	18	43156625
+rs139241345	rs139241345-?	Glioblastoma	glioblastoma	1E-6	36810956	Foss-Skiftesvik J	2023-02-22	GCST90296471	NRXN1-DT	4.704879	2	51955507
+rs1424394	rs1424394-A	Body mass index (MTAG)	body mass index	1E-14	36376304	Koskeridis F	2022-11-14	GCST90179150	RIT2 - SYT4	0.01348	18	43158686
+rs9965184	rs9965184-A	C-reactive protein levels	C-reactive protein measurement	3E-8	35459240	Said S	2022-04-22	GCST90029070	RIT2 - SYT4	0.0118	18	43196641
+rs62090520	rs62090520-A	Cucumber liking	taste liking measurement	1E-8	35585065	May-Wilson S	2022-05-18	GCST90094749	RIT2 - SYT4	0.02078	18	43139797
+rs35735971	rs35735971-G	Weight	body weight	3E-16	34594039	Sakaue S	2021-09-30	GCST90018949	RIT2 - SYT4	0.0139	18	43130632
+rs59499656	rs59499656-A	Physical activity	physical activity measurement	5E-8	34753499	Hanscombe KB	2021-11-09	GCST90093322	RIT2 - SYT4	0.215	18	43188344
+rs2052607	rs2052607-A	C-reactive protein levels (MTAG)	C-reactive protein measurement	1E-10	36376304	Koskeridis F	2022-11-14	GCST90179146	RIT2 - SYT4	0.01362	18	43208422
+rs1518166	rs1518166-G	Height	body height	1E-8	36224396	Yengo L	2022-10-12	GCST90245848	RIT2 - SYT4	0.0037	18	43125935
+rs1518166	rs1518166-G	High density lipoprotein cholesterol levels	high density lipoprotein cholesterol measurement	1E-9	34887591	Graham SE	2021-12-09	GCST90239652	RIT2 - SYT4	0.0114137	18	43125935
+rs1518166	rs1518166-?	High density lipoprotein cholesterol levels	high density lipoprotein cholesterol measurement	7E-14	34887591	Graham SE	2021-12-09	GCST90239649	RIT2 - SYT4		18	43125935
+rs1424393	rs1424393-C	High-density lipoprotein levels	high density lipoprotein cholesterol measurement	3E-16	40436827	Jee YH	2025-05-28	GCST90662894	RIT2 - SYT4	0.0142	18	43157716
+rs1834144	rs1834144-C	Body shape phenotype PC1	body shape measurement	9E-14	38640244	Peruchet-Noray L	2024-04-19	GCST90832989	RIT2 - SYT4	0.032093	18	43164825
+rs1518149	rs1518149-T	Serum urate levels	urate measurement	2E-8	38658550	Cho C	2024-04-24	GCST90319904	RIT2 - SYT4	0.0123	18	43152089
+rs7242026	rs7242026-T	Type 2 diabetes	type 2 diabetes mellitus	9E-9	38374256	Suzuki K	2024-02-19	GCST90492734	RIT2 - SYT4		18	43122868
+rs9961441	rs9961441-G	Whole body fat mass (UKB data field 23100)	fat pad mass	4E-11	38538606	Harris BHL	2024-03-27	GCST90428121	RIT2 - SYT4	0.0164488	18	43252961
+rs1834144	rs1834144-C	Body mass index	body mass index	2E-12	37280435	Hawkes G	2023-06-06	GCST90301650	RIT2 - SYT4	0.0139698	18	43164825
+rs2052607	rs2052607-?	Body fat percentage (adjusted for testosterone and SHBG)	body fat percentage	4E-8	37867527	Roshandel D	2023-10-05	GCST90432180	RIT2 - SYT4	0.12	18	43208422
+rs2161796	rs2161796-T	Serum urate levels	urate measurement	4E-10	39406924	Major TJ	2024-10-15	GCST90455669	RIT2 - SYT4	0.0148	18	43170490
+rs2052607	rs2052607-A	Arm fat percentage left (UKB data field 23123)	body fat percentage	3E-16	39789286	Loya H	2025-01-09	GCST90468157	RIT2 - SYT4	0.012353301	18	43208422
+rs1834144	rs1834144-A	Whole body fat mass (UKB data field 23100)	fat pad mass	2E-13	38538606	Harris BHL	2024-03-27	GCST90428121	RIT2 - SYT4	0.0179276	18	43164825
+rs2161796	rs2161796-?	Metabolic syndrome	metabolic syndrome	2E-20	39349817	Park S	2024-09-30	GCST90444487	RIT2 - SYT4	0.013266	18	43170490
+rs2052607	rs2052607-A	Leg fat percentage right (UKB data field 23111)	body fat percentage	6E-13	39789286	Loya H	2025-01-09	GCST90468175	RIT2 - SYT4	0.008944492	18	43208422
+rs2052607	rs2052607-A	Body fat percentage (UKB data field 23099)	body fat percentage	1E-15	39789286	Loya H	2025-01-09	GCST90468160	RIT2 - SYT4	0.012047237	18	43208422
+rs2052607	rs2052607-A	Trunk fat mass (UKB data field 23128)	fat pad mass	1E-17	39789286	Loya H	2025-01-09	GCST90468180	RIT2 - SYT4	0.01680628	18	43208422
+rs1424393	rs1424393-C	Sodium (mean, inv-norm transformed)	sodium measurement	6E-12	39024449	Verma A	2024-07-19	GCST90480703	RIT2 - SYT4	0.01724	18	43157716
